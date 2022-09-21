@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="SeleniumAutomation.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="User Validation Test(failed)">
+    <classes>
+      <class name="SeleniumAutomation.UserValidationTest">
+        <methods>
+          <include name="userLogin" invocation-numbers="1 1"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.UserValidationTest -->
+    </classes>
+  </test> <!-- User Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
